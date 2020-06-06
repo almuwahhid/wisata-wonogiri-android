@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/clickable"
+    android:padding="@dimen/dimen_16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".dialogs.kategori.KategoriAdapter">
+    <ImageView
+        android:id="@+id/img_kategori"
+        android:src="@drawable/ic_logo"
+        android:layout_width="@dimen/dimen_18dp"
+        android:layout_height="@dimen/dimen_18dp"/>
+    <TextView
+        android:id="@+id/tv_kategori"
+        android:layout_marginLeft="@dimen/dimen_16dp"
+        android:text="Wisata Rumahan"
+        style="@style/StandardTextOneRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='Wisata Wonogiri'
+include ':app'
